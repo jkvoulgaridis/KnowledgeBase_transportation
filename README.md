@@ -15,5 +15,5 @@ A project for the course of Knowledge Systems @ECE.NTUA, GR.
 
 ## Important Notices  
 
-> Some input files are not in this directory because of their large size. 
-> the main file (describing the ontology) is turtle.ttl 
+1. Some input files are not in this directory because of their large size. 
+2. the main file (describing the ontology) is turtle.ttl 
