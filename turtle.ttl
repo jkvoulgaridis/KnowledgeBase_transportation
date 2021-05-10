@@ -1,0 +1,169 @@
+﻿@prefix :<http://www.semanticweb.org/johnvoul/ontologies/2020/6/transport#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@base <http://www.semanticweb.org/johnvoul/ontologies/2020/6/transport#> .
+
+<http://www.semanticweb.org/johnvoul/ontologies/2020/6/transport#> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.openlinksw.com/schemas/virtrdf#Geometry
+vrdf:Geometry rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#time
+xsd:time rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Serves
+:Serves rdf:type owl:ObjectProperty ;
+        rdfs:domain :Routes ;
+        rdfs:range :Trips .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#arrivesAt
+:arrivesAt rdf:type owl:ObjectProperty ;
+           rdfs:domain :Trips ;
+           rdfs:range :StationArrival .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#belongsAgency
+:belongsAgency rdf:type owl:ObjectProperty ;
+               rdfs:range :Agency .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#departsAt
+:departsAt rdf:type owl:ObjectProperty ;
+           rdfs:domain :Trips ;
+           rdfs:range :StationDeparture .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#hasStation
+:hasStation rdf:type owl:ObjectProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :StationArrival
+                                        :StationDeparture
+                                      )
+                        ] ;
+            rdfs:range :Station .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Coordinates
+:Coordinates rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Station .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Description
+:Description rdf:type owl:DatatypeProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Station
+                                         :StationArrival
+                                         :StationDeparture
+                                       )
+                         ] ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Name
+:Name rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#OnTime
+:OnTime rdf:type owl:DatatypeProperty ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( :StationArrival
+                                    :StationDeparture
+                                  )
+                    ] ;
+        rdfs:range xsd:time .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Agency
+:Agency rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Airplane
+:Airplane rdf:type owl:Class ;
+          rdfs:subClassOf :Routes .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Boat
+:Boat rdf:type owl:Class ;
+      rdfs:subClassOf :Routes .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Bus
+:Bus rdf:type owl:Class ;
+     rdfs:subClassOf :Routes .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Metro
+:Metro rdf:type owl:Class ;
+       rdfs:subClassOf :Routes .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Routes
+:Routes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Station
+:Station rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#StationArrival
+:StationArrival rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#StationDeparture
+:StationDeparture rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Train
+:Train rdf:type owl:Class ;
+       rdfs:subClassOf :Routes .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Tram
+:Tram rdf:type owl:Class ;
+      rdfs:subClassOf :Routes .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Trips
+:Trips rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#Trolley
+:Trolley rdf:type owl:Class ;
+         rdfs:subClassOf :Routes .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/panos/ontologies/2020/6/sygkoinwnies#OASA
+:OASA rdf:type owl:NamedIndividual ,
+               :Agency ;
+      :Name "\"Οργανισμός Αστικών Συγκοινωνιών ΟΑΣΑ - Αthens Urban Transport Organisation\"" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

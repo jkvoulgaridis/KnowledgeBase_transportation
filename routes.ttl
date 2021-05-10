@@ -1,0 +1,1253 @@
+@prefix :<http://www.semanticweb.org/johnvoul/ontologies/2020/6/transport#> .
+@prefix owl:<http://www.w3.org/2002/07/owl#> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:<http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vrdf:<http://www.openlinksw.com/schemas/virtrdf#> .
+
+:rΤ3 rdf:type owl:NamedIndividual .
+:rΤ3 rdf:type :Tram .
+:rΤ3 :belongsAgency :OASA .
+:rΤ3 :Name "ΝΕΟ ΦΑΛΗΡΟ - AΣΚΛΗΠΕΙΟ ΒΟΥΛΑ" .
+
+:rΤ4 rdf:type owl:NamedIndividual .
+:rΤ4 rdf:type :Tram .
+:rΤ4 :belongsAgency :OASA .
+:rΤ4 :Name "ΣΥΝΤΑΓΜΑ - ΝΕΟ ΦΑΛΗΡΟ" .
+
+:rΤ5 rdf:type owl:NamedIndividual .
+:rΤ5 rdf:type :Tram .
+:rΤ5 :belongsAgency :OASA .
+:rΤ5 :Name "ΣΥΝΤΑΓΜΑ - ΒΟΥΛΑ" .
+
+:rΜ2 rdf:type owl:NamedIndividual .
+:rΜ2 rdf:type :Metro .
+:rΜ2 :belongsAgency :OASA .
+:rΜ2 :Name "ΑΝΘΟΥΠΟΛΗ - ΣΤ.ΕΛΛΗΝΙΚΟ" .
+
+:rΜ3 rdf:type owl:NamedIndividual .
+:rΜ3 rdf:type :Metro .
+:rΜ3 :belongsAgency :OASA .
+:rΜ3 :Name "ΑΓΙΑ ΜΑΡΙΝΑ - ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΑΕΡΟΔΡΟΜΙΟ" .
+
+:rΜ1 rdf:type owl:NamedIndividual .
+:rΜ1 rdf:type :Metro .
+:rΜ1 :belongsAgency :OASA .
+:rΜ1 :Name "ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ" .
+
+:r1 rdf:type owl:NamedIndividual .
+:r1 rdf:type :Trolley .
+:r1 :belongsAgency :OASA .
+:r1 :Name "ΠΛΑΤ. ΑΤΤΙΚΗΣ - ΤΖΙΤΖΙΦΙΕΣ - ΜΟΣΧΑΤΟ" .
+
+:r2 rdf:type owl:NamedIndividual .
+:r2 rdf:type :Trolley .
+:r2 :belongsAgency :OASA .
+:r2 :Name "ΑΝΩ ΚΥΨΕΛΗ - ΠΑΓΚΡΑΤΙ - ΚΑΙΣΑΡΙΑΝΗ" .
+
+:r3 rdf:type owl:NamedIndividual .
+:r3 rdf:type :Trolley .
+:r3 :belongsAgency :OASA .
+:r3 :Name "Ν. ΦΙΛΑΔΕΛΦΕΙΑ - ΑΝΩ ΠΑΤΗΣΙΑ - ΝΕΟ ΨΥΧΙΚΟ" .
+
+:r4 rdf:type owl:NamedIndividual .
+:r4 rdf:type :Trolley .
+:r4 :belongsAgency :OASA .
+:r4 :Name "ΑΝΩ ΚΥΨΕΛΗ - ΑΓ. ΑΡΤΕΜΙΟΣ - ΣΤ. ΜΕΤΡΟ ΑΓ. ΙΩΑΝΝΗΣ" .
+
+:r5 rdf:type owl:NamedIndividual .
+:r5 rdf:type :Trolley .
+:r5 :belongsAgency :OASA .
+:r5 :Name "ΛΑΜΠΡΙΝΗ - ΠΛ. ΣΥΝΤΑΓΜΑΤΟΣ - ΤΖΙΤΖΙΦΙΕΣ" .
+
+:r6 rdf:type owl:NamedIndividual .
+:r6 rdf:type :Trolley .
+:r6 :belongsAgency :OASA .
+:r6 :Name "ΙΠΠΟΚΡΑΤΟΥΣ -ΚΟΣΜΑΣ ΑΙΤΩΛΟΣ- Ν. ΦΙΛΑΔΕΛΦΕΙΑ" .
+
+:r10 rdf:type owl:NamedIndividual .
+:r10 rdf:type :Trolley .
+:r10 :belongsAgency :OASA .
+:r10 :Name "ΤΖΙΤΖΙΦΙΕΣ - ΧΑΛΑΝΔΡΙ" .
+
+:r11 rdf:type owl:NamedIndividual .
+:r11 rdf:type :Trolley .
+:r11 :belongsAgency :OASA .
+:r11 :Name "Α. ΠΑΤΗΣΙΑ - Ν. ΠΑΓΚΡΑΤΙ - Ν. ΕΛΒΕΤΙΑ" .
+
+:r12 rdf:type owl:NamedIndividual .
+:r12 rdf:type :Trolley .
+:r12 :belongsAgency :OASA .
+:r12 :Name "ΖΑΠΠΕΙΟ - ΠΕΡΙΣΤΕΡΙ" .
+
+:r14 rdf:type owl:NamedIndividual .
+:r14 rdf:type :Trolley .
+:r14 :belongsAgency :OASA .
+:r14 :Name "ΛΑΜΠΡΙΝΗ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΓΗΡΟΚΟΜΕΙΟ" .
+
+:r15 rdf:type owl:NamedIndividual .
+:r15 rdf:type :Trolley .
+:r15 :belongsAgency :OASA .
+:r15 :Name "ΠΕΤΡΑΛΩΝΑ - ΔΙΚΑΣΤΗΡΙΑ - ΕΛ. ΒΕΝΙΖΕΛΟΥ" .
+
+:r16 rdf:type owl:NamedIndividual .
+:r16 rdf:type :Trolley .
+:r16 :belongsAgency :OASA .
+:r16 :Name "ΑΓ. ΙΩΑΝΝΗΣ ΡΕΝΤΗΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r17 rdf:type owl:NamedIndividual .
+:r17 rdf:type :Trolley .
+:r17 :belongsAgency :OASA .
+:r17 :Name "ΠΕΙΡΑΙΑΣ - ΑΓ. ΓΕΩΡΓΙΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r18 rdf:type owl:NamedIndividual .
+:r18 rdf:type :Trolley .
+:r18 :belongsAgency :OASA .
+:r18 :Name "ΜΟΥΣΕΙΟ - ΧΑΛΑΝΔΡΙ (ΕΘΝ. ΑΝΤΙΣΤΑΣΕΩΣ)" .
+
+:r19 rdf:type owl:NamedIndividual .
+:r19 rdf:type :Trolley .
+:r19 :belongsAgency :OASA .
+:r19 :Name "ΜΟΥΣΕΙΟ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ (ΣΙΔΕΡΑ)" .
+
+:r20 rdf:type owl:NamedIndividual .
+:r20 rdf:type :Trolley .
+:r20 :belongsAgency :OASA .
+:r20 :Name "Ν. ΦΑΛΗΡΟ - ΚΑΣΤΕΛΛΑ - ΔΡΑΠΕΤΣΩΝΑ" .
+
+:r21 rdf:type owl:NamedIndividual .
+:r21 rdf:type :Trolley .
+:r21 :belongsAgency :OASA .
+:r21 :Name "ΝΙΚΑΙΑ - Π. ΡΑΛΛΗ - ΟΜΟΝΟΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r24 rdf:type owl:NamedIndividual .
+:r24 rdf:type :Trolley .
+:r24 :belongsAgency :OASA .
+:r24 :Name "ΠΕΤΡΟΥΠΟΛΗ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r25 rdf:type owl:NamedIndividual .
+:r25 rdf:type :Trolley .
+:r25 :belongsAgency :OASA .
+:r25 :Name "ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r021 rdf:type owl:NamedIndividual .
+:r021 rdf:type :Bus .
+:r021 :belongsAgency :OASA .
+:r021 :Name "ΚΑΝΙΓΓΟΣ - ΓΚΥΖΗ" .
+
+:r022 rdf:type owl:NamedIndividual .
+:r022 rdf:type :Bus .
+:r022 :belongsAgency :OASA .
+:r022 :Name "Ν. ΚΥΨΕΛΗ - ΜΑΡΑΣΛΕΙΟΣ" .
+
+:r024 rdf:type owl:NamedIndividual .
+:r024 rdf:type :Bus .
+:r024 :belongsAgency :OASA .
+:r024 :Name "ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΣΤ. ΑΤΤΙΚΗΣ - ΣΤ. ΛΑΡΙΣΗΣ (ΚΥΚΛΙΚΗ" .
+
+:r025 rdf:type owl:NamedIndividual .
+:r025 rdf:type :Bus .
+:r025 :belongsAgency :OASA .
+:r025 :Name "ΙΠΠΟΚΡΑΤΟΥΣ - ΠΡΟΦ. ΔΑΝΙΗΛ" .
+
+:r026 rdf:type owl:NamedIndividual .
+:r026 rdf:type :Bus .
+:r026 :belongsAgency :OASA .
+:r026 :Name "ΙΠΠΟΚΡΑΤΟΥΣ - ΒΟΤΑΝΙΚΟΣ" .
+
+:r027 rdf:type owl:NamedIndividual .
+:r027 rdf:type :Bus .
+:r027 :belongsAgency :OASA .
+:r027 :Name "ΙΠΠΟΚΡΑΤΟΥΣ - ΟΡΦΕΩΣ" .
+
+:r032 rdf:type owl:NamedIndividual .
+:r032 rdf:type :Bus .
+:r032 :belongsAgency :OASA .
+:r032 :Name "ΓΟΥΔΗ - ΜΑΡΑΣΛΕΙΟΣ (ΣΧΟΛΙΚΗ)" .
+
+:r035 rdf:type owl:NamedIndividual .
+:r035 rdf:type :Bus .
+:r035 :belongsAgency :OASA .
+:r035 :Name "ΑΝΩ ΚΥΨΕΛΗ - ΠΕΤΡΑΛΩΝΑ - ΤΑΥΡΟΣ" .
+
+:r036 rdf:type owl:NamedIndividual .
+:r036 rdf:type :Bus .
+:r036 :belongsAgency :OASA .
+:r036 :Name "ΣΤ.ΚΑΤΕΧΑΚΗ - ΣΤ.ΠΑΝΟΡΜΟΥ - ΓΑΛΑΤΣΙ - ΚΥΨΕΛΗ (ΚΥΚ)" .
+
+:r040 rdf:type owl:NamedIndividual .
+:r040 rdf:type :Bus .
+:r040 :belongsAgency :OASA .
+:r040 :Name "ΠΕΙΡΑΙΑΣ - ΣΥΝΤΑΓΜΑ" .
+
+:r046 rdf:type owl:NamedIndividual .
+:r046 rdf:type :Bus .
+:r046 :belongsAgency :OASA .
+:r046 :Name "ΜΟΥΣΕΙΟ - ΕΛΛΗΝΟΡΩΣΩΝ" .
+
+:r049 rdf:type owl:NamedIndividual .
+:r049 rdf:type :Bus .
+:r049 :belongsAgency :OASA .
+:r049 :Name "ΠΕΙΡΑΙΑΣ - ΟΜΟΝΟΙΑ" .
+
+:r051 rdf:type owl:NamedIndividual .
+:r051 rdf:type :Bus .
+:r051 :belongsAgency :OASA .
+:r051 :Name "ΟΜΟΝΟΙΑ - ΣΤΑΘ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ" .
+
+:r054 rdf:type owl:NamedIndividual .
+:r054 rdf:type :Bus .
+:r054 :belongsAgency :OASA .
+:r054 :Name "ΠΕΡΙΣΣΟΣ - ΑΚΑΔΗΜΙΑ - ΜΕΤΑΜΟΡΦΩΣΗ" .
+
+:r057 rdf:type owl:NamedIndividual .
+:r057 rdf:type :Bus .
+:r057 :belongsAgency :OASA .
+:r057 :Name "ΟΜΟΝΟΙΑ - ΛΟΦΟΣ ΣΚΟΥΖΕ (ΚΥΚΛΙΚΗ)" .
+
+:r060 rdf:type owl:NamedIndividual .
+:r060 rdf:type :Bus .
+:r060 :belongsAgency :OASA .
+:r060 :Name "ΜΟΥΣΕΙΟ - ΑΚΑΔΗΜΙΑ - ΛΥΚΑΒΗΤΤΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r100 rdf:type owl:NamedIndividual .
+:r100 rdf:type :Bus .
+:r100 :belongsAgency :OASA .
+:r100 :Name "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΚΟΛΩΝΑΚΙ - ΑΓΟΡΑ (ΚΥΚΛΙΚΗ)" .
+
+:r101 rdf:type owl:NamedIndividual .
+:r101 rdf:type :Bus .
+:r101 :belongsAgency :OASA .
+:r101 :Name "ΑΛΙΜΟΣ - ΕΛΛΗNIKO" .
+
+:r106 rdf:type owl:NamedIndividual .
+:r106 rdf:type :Bus .
+:r106 :belongsAgency :OASA .
+:r106 :Name "ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)" .
+
+:r109 rdf:type owl:NamedIndividual .
+:r109 rdf:type :Bus .
+:r109 :belongsAgency :OASA .
+:r109 :Name "ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΝΩ ΚΑΛΑΜΑΚΙ" .
+
+:r112 rdf:type owl:NamedIndividual .
+:r112 rdf:type :Bus .
+:r112 :belongsAgency :OASA .
+:r112 :Name "ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΣΤΑΘ. ΔΑΦΝΗΣ (ΚΥΚΛΙΚΗ)" .
+
+:r120 rdf:type owl:NamedIndividual .
+:r120 rdf:type :Bus .
+:r120 :belongsAgency :OASA .
+:r120 :Name "ΓΛΥΦΑΔΑ - ΒΑΡΗ  - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ" .
+
+:r122 rdf:type owl:NamedIndividual .
+:r122 rdf:type :Bus .
+:r122 :belongsAgency :OASA .
+:r122 :Name "ΣΤ. ΕΛΛΗΝΙΚΟ - ΣΑΡΩΝΙΔΑ" .
+
+:r123 rdf:type owl:NamedIndividual .
+:r123 rdf:type :Bus .
+:r123 :belongsAgency :OASA .
+:r123 :Name "ΣΑΡΩΝΙΔΑ - ΑΝΑΒΥΣΣΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r126 rdf:type owl:NamedIndividual .
+:r126 rdf:type :Bus .
+:r126 :belongsAgency :OASA .
+:r126 :Name "ΠΑΛ. ΦΑΛΗΡΟ - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)" .
+
+:r130 rdf:type owl:NamedIndividual .
+:r130 rdf:type :Bus .
+:r130 :belongsAgency :OASA .
+:r130 :Name "ΠΕΙΡΑΙΑΣ - Ν. ΣΜΥΡΝΗ (ΚΥΚΛΙΚΗ)" .
+
+:r131 rdf:type owl:NamedIndividual .
+:r131 rdf:type :Bus .
+:r131 :belongsAgency :OASA .
+:r131 :Name "ΣΤ. ΔΑΦΝΗΣ - ΑΜΑΞ/ΣΙΟ  ΑΓ. ΔΗΜΗΤΡΙΟΥ" .
+
+:r136 rdf:type owl:NamedIndividual .
+:r136 rdf:type :Bus .
+:r136 :belongsAgency :OASA .
+:r136 :Name "ΑΝΩ Ν. ΣΜΥΡΝΗ Β - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)" .
+
+:r137 rdf:type owl:NamedIndividual .
+:r137 rdf:type :Bus .
+:r137 :belongsAgency :OASA .
+:r137 :Name "ΑΝΩ Ν. ΣΜΥΡΝΗ Α - ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ (ΚΥΚΛΙΚΗ)" .
+
+:r140 rdf:type owl:NamedIndividual .
+:r140 rdf:type :Bus .
+:r140 :belongsAgency :OASA .
+:r140 :Name "ΠΟΛΥΓΩΝΟ - ΓΛΥΦΑΔΑ" .
+
+:r141 rdf:type owl:NamedIndividual .
+:r141 rdf:type :Bus .
+:r141 :belongsAgency :OASA .
+:r141 :Name "ΣΤ. ΔΑΦΝΗΣ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)" .
+
+:r142 rdf:type owl:NamedIndividual .
+:r142 rdf:type :Bus .
+:r142 :belongsAgency :OASA .
+:r142 :Name "ΣΤ. ΑΡΓΥΡΟΥΠΟΛΗ - ΚΑΛΑΜΑΚΙ (ΚΥΚΛΙΚΗ)" .
+
+:r154 rdf:type owl:NamedIndividual .
+:r154 rdf:type :Bus .
+:r154 :belongsAgency :OASA .
+:r154 :Name "ΣΤ. ΕΛΛΗΝΙΚΟ - ΑΝΩ ΓΛΥΦΑΔΑ (ΠΑΝΟΡΑΜΑ ΒΟΥΛΑΣ)" .
+
+:r155 rdf:type owl:NamedIndividual .
+:r155 rdf:type :Bus .
+:r155 :belongsAgency :OASA .
+:r155 :Name "ΕΛΛΗΝΙΚΟ - ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r162 rdf:type owl:NamedIndividual .
+:r162 rdf:type :Bus .
+:r162 :belongsAgency :OASA .
+:r162 :Name "ΒΟΥΛΑ - ΠΑΝΟΡΑΜΑ (ΚΥΚΛΙΚΗ)" .
+
+:r164 rdf:type owl:NamedIndividual .
+:r164 rdf:type :Bus .
+:r164 :belongsAgency :OASA .
+:r164 :Name "ΣΤ.ΑΓ.ΔΗΜΗΤΡΙΟΣ - Κ. ΗΛ/ΠΟΛΗ - ΑΡΓ/ΠΟΛΗ - ΤΕΡΨΙΘΕΑ" .
+
+:r165 rdf:type owl:NamedIndividual .
+:r165 rdf:type :Bus .
+:r165 :belongsAgency :OASA .
+:r165 :Name "ΤΕΡΨΙΘΕΑ - ΑΡΓΥΡΟΥΠΟΛΗ - ΣΥΝΤΑΓΜΑ (ΚΥΚΛΙΚΗ)" .
+
+:r171 rdf:type owl:NamedIndividual .
+:r171 rdf:type :Bus .
+:r171 :belongsAgency :OASA .
+:r171 :Name "ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΒΑΡΚΙΖΑ" .
+
+:r201 rdf:type owl:NamedIndividual .
+:r201 rdf:type :Bus .
+:r201 :belongsAgency :OASA .
+:r201 :Name "ΣΤ. ΑΓ. ΔΗΜΗΤΡΙΟΣ - ΑΡΓΥΡΟΥΠΟΛΗ" .
+
+:r203 rdf:type owl:NamedIndividual .
+:r203 rdf:type :Bus .
+:r203 :belongsAgency :OASA .
+:r203 :Name "ΚΑΡΕΑΣ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r204 rdf:type owl:NamedIndividual .
+:r204 rdf:type :Bus .
+:r204 :belongsAgency :OASA .
+:r204 :Name "ΣΤΡ. ΣΑΚΕΤΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r206 rdf:type owl:NamedIndividual .
+:r206 rdf:type :Bus .
+:r206 :belongsAgency :OASA .
+:r206 :Name "ΣΤ. ΔΑΦΝΗ - ΑΓΙΑ ΜΑΡΙΝΑ" .
+
+:r209 rdf:type owl:NamedIndividual .
+:r209 rdf:type :Bus .
+:r209 :belongsAgency :OASA .
+:r209 :Name "ΜΕΤΑΜΟΡΦΩΣΗ - ΠΛΑΤΕΙΑ ΣΥΝΤΑΓΜΑΤΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r212 rdf:type owl:NamedIndividual .
+:r212 rdf:type :Bus .
+:r212 :belongsAgency :OASA .
+:r212 :Name "ΣΤ. ΜΕΤΡΟ ΔΑΦΝΗΣ - ΒΥΡΩΝΑΣ - ΚΑΡΕΑΣ" .
+
+:r217 rdf:type owl:NamedIndividual .
+:r217 rdf:type :Bus .
+:r217 :belongsAgency :OASA .
+:r217 :Name "ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)" .
+
+:r218 rdf:type owl:NamedIndividual .
+:r218 rdf:type :Bus .
+:r218 :belongsAgency :OASA .
+:r218 :Name "ΠΕΙΡΑΙΑΣ - ΣΤ. ΔΑΦΝΗΣ" .
+
+:r219 rdf:type owl:NamedIndividual .
+:r219 rdf:type :Bus .
+:r219 :belongsAgency :OASA .
+:r219 :Name "ΣΤ. ΚΑΛΛΙΘΕΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ" .
+
+:r220 rdf:type owl:NamedIndividual .
+:r220 rdf:type :Bus .
+:r220 :belongsAgency :OASA .
+:r220 :Name "ΑΝΩ ΙΛΙΣΙΑ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r221 rdf:type owl:NamedIndividual .
+:r221 rdf:type :Bus .
+:r221 :belongsAgency :OASA .
+:r221 :Name "ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r224 rdf:type owl:NamedIndividual .
+:r224 rdf:type :Bus .
+:r224 :belongsAgency :OASA .
+:r224 :Name "ΚΑΙΣΑΡΙΑΝΗ - ΕΛ. ΒΕΝΙΖΕΛΟΥ" .
+
+:r227 rdf:type owl:NamedIndividual .
+:r227 rdf:type :Bus .
+:r227 :belongsAgency :OASA .
+:r227 :Name "ΑΝΩ ΠΕΤΡΑΛΩΝΑ - ΑΓ. ΑΡΤΕΜΙΟΣ" .
+
+:r229 rdf:type owl:NamedIndividual .
+:r229 rdf:type :Bus .
+:r229 :belongsAgency :OASA .
+:r229 :Name "ΠΕΙΡΑΙΑΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ (ΣΤΑΘ. ΔΑΦΝΗΣ)" .
+
+:r230 rdf:type owl:NamedIndividual .
+:r230 rdf:type :Bus .
+:r230 :belongsAgency :OASA .
+:r230 :Name "ΑΚΡΟΠΟΛΗ - ΖΩΓΡΑΦΟΥ" .
+
+:r235 rdf:type owl:NamedIndividual .
+:r235 rdf:type :Bus .
+:r235 :belongsAgency :OASA .
+:r235 :Name "ΖΩΓΡΑΦΟΥ - ΑΚΑΔΗΜΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r237 rdf:type owl:NamedIndividual .
+:r237 rdf:type :Bus .
+:r237 :belongsAgency :OASA .
+:r237 :Name "ΣΤ. ΔΑΦΝΗ - ΑΝΩ ΗΛΙΟΥΠΟΛΗ" .
+
+:r242 rdf:type owl:NamedIndividual .
+:r242 rdf:type :Bus .
+:r242 :belongsAgency :OASA .
+:r242 :Name "ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΤΕΧΝΕΙΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ) ΣΧΟΛ." .
+
+:r250 rdf:type owl:NamedIndividual .
+:r250 rdf:type :Bus .
+:r250 :belongsAgency :OASA .
+:r250 :Name "ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ - ΣΤ. ΕΥΑΓΓΕΛΙΣΜΟΥ (ΚΥΚΛΙΚΗ) ΣΧ" .
+
+:r300 rdf:type owl:NamedIndividual .
+:r300 rdf:type :Bus .
+:r300 :belongsAgency :OASA .
+:r300 :Name "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΤΖΑΝΕΙΟ (ΚΥΚΛΙΚΗ)" .
+
+:r301 rdf:type owl:NamedIndividual .
+:r301 rdf:type :Bus .
+:r301 :belongsAgency :OASA .
+:r301 :Name "ΠΕΝΤΕΛΗ - ΣΤ. ΠΑΛΛΗΝΗ - ΔΗΜΑΡΧΕΙΟ ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)" .
+
+:r301Β rdf:type owl:NamedIndividual .
+:r301Β rdf:type :Bus .
+:r301Β :belongsAgency :OASA .
+:r301Β :Name "ΤΟΠΙΚΗ ΑΝΘΟΥΣΑΣ - ΝΤΡΑΦΙ (ΚΥΚΛΙΚΗ)" .
+
+:r302 rdf:type owl:NamedIndividual .
+:r302 rdf:type :Bus .
+:r302 :belongsAgency :OASA .
+:r302 :Name "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΓΕΡΑΚΑ (ΚΥΚΛΙΚΗ)" .
+
+:r304 rdf:type owl:NamedIndividual .
+:r304 rdf:type :Bus .
+:r304 :belongsAgency :OASA .
+:r304 :Name "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΒΡΑΥΡΩΝΑ)" .
+
+:r305 rdf:type owl:NamedIndividual .
+:r305 rdf:type :Bus .
+:r305 :belongsAgency :OASA .
+:r305 :Name "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ (ΑΓ. ΝΙΚΟΛΑΟΣ)" .
+
+:r306 rdf:type owl:NamedIndividual .
+:r306 rdf:type :Bus .
+:r306 :belongsAgency :OASA .
+:r306 :Name "ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ-ΔΗΜΑΡΧ. ΓΕΡΑΚΑ-ΜΠΑΛΑΝΑ ΓΕΡΑΚΑ" .
+
+:r307 rdf:type owl:NamedIndividual .
+:r307 rdf:type :Bus .
+:r307 :belongsAgency :OASA .
+:r307 :Name "ΣΤ. Δ. ΠΛΑΚΕΝΤΙΑΣ - ΓΛ. ΝΕΡΑ - ΠΡΟΑΣΤ. ΚΟΡΩΠΙΟΥ" .
+
+:r308 rdf:type owl:NamedIndividual .
+:r308 rdf:type :Bus .
+:r308 :belongsAgency :OASA .
+:r308 :Name "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΠΑΙΑΝΙΑ - ΚΟΡΩΠΙ" .
+
+:r309 rdf:type owl:NamedIndividual .
+:r309 rdf:type :Bus .
+:r309 :belongsAgency :OASA .
+:r309 :Name "ΚΟΡΩΠΙ - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ - ΚΟΡΩΠΙ (ΚΥΚΛΙΚΗ)" .
+
+:r314 rdf:type owl:NamedIndividual .
+:r314 rdf:type :Bus .
+:r314 :belongsAgency :OASA .
+:r314 :Name "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΝΟΜ. ΑΝ. ΑΤΤΙΚΗΣ - ΠΑΛΛΗΝΗ" .
+
+:r316 rdf:type owl:NamedIndividual .
+:r316 rdf:type :Bus .
+:r316 :belongsAgency :OASA .
+:r316 :Name "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ - ΑΡΤΕΜΙΣ" .
+
+:r319 rdf:type owl:NamedIndividual .
+:r319 rdf:type :Bus .
+:r319 :belongsAgency :OASA .
+:r319 :Name "ΣΤ. ΜΕΤΡΟ ΔΟΥΚ. ΠΛΑΚ.- ΠΑΛΛΗΝΗ-ΕΚΠΤ. ΧΩΡΙΟ-ΣΠΑΤΑ" .
+
+:r322 rdf:type owl:NamedIndividual .
+:r322 rdf:type :Bus .
+:r322 :belongsAgency :OASA .
+:r322 :Name "ΑΓ. ΝΙΚΟΛΑΟΣ - ΒΡΑΥΡΩΝΑ (ΚΥΚΛΙΚΗ)" .
+
+:r323 rdf:type owl:NamedIndividual .
+:r323 rdf:type :Bus .
+:r323 :belongsAgency :OASA .
+:r323 :Name "ΒΡΑΥΡΩΝΑ - ΑΓ. ΝΙΚΟΛΑΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r324 rdf:type owl:NamedIndividual .
+:r324 rdf:type :Bus .
+:r324 :belongsAgency :OASA .
+:r324 :Name "ΑΝΘΟΥΣΑ - ΠΑΛΛΗΝΗ - ΚΑΝΤΖΑ (ΚΥΚΛΙΚΗ)" .
+
+:r330 rdf:type owl:NamedIndividual .
+:r330 rdf:type :Bus .
+:r330 :belongsAgency :OASA .
+:r330 :Name "ΚΟΡΩΠΙ - ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)" .
+
+:r402 rdf:type owl:NamedIndividual .
+:r402 rdf:type :Bus .
+:r402 :belongsAgency :OASA .
+:r402 :Name "ΣΤ. ΚΑΤΕΧΑΚΗ - ΠΟΛΥΔΡΟΣΟ" .
+
+:r404 rdf:type owl:NamedIndividual .
+:r404 rdf:type :Bus .
+:r404 :belongsAgency :OASA .
+:r404 :Name "ΣΤ. ΕΘΝ.ΑΜΥΝΑΣ - ΣΤ. ΧΑΛΑΝΔΡΙΟΥ" .
+
+:r405 rdf:type owl:NamedIndividual .
+:r405 rdf:type :Bus .
+:r405 :belongsAgency :OASA .
+:r405 :Name "ΣΤ. ΧΑΛΑΝΔΡΙ - ΜΕΛΙΣΣΙΑ" .
+
+:r406 rdf:type owl:NamedIndividual .
+:r406 rdf:type :Bus .
+:r406 :belongsAgency :OASA .
+:r406 :Name "ΣΤ. ΝΟΜΙΣΜ. - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΣΤ. ΠΛΑΚΕΝΤΙΑΣ" .
+
+:r407 rdf:type owl:NamedIndividual .
+:r407 rdf:type :Bus .
+:r407 :belongsAgency :OASA .
+:r407 :Name "ΣΤ. ΝΟΜΙΣΜΑΤΟΚΟΠΕΙΟ-ΝΕΑ ΖΩΗ - ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ" .
+
+:r409 rdf:type owl:NamedIndividual .
+:r409 rdf:type :Bus .
+:r409 :belongsAgency :OASA .
+:r409 :Name "ΠΑΠΑΓΟΥ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ-ΣΤ.ΚΑΤΕΧΑΚΗ (ΚΥΚΛΙΚΗ)" .
+
+:r410 rdf:type owl:NamedIndividual .
+:r410 rdf:type :Bus .
+:r410 :belongsAgency :OASA .
+:r410 :Name "Ο.Α.Κ.Α - ΑΝΩ ΜΕΛΙΣΣΙΑ  (ΚΥΚΛΙΚΗ)" .
+
+:r411 rdf:type owl:NamedIndividual .
+:r411 rdf:type :Bus .
+:r411 :belongsAgency :OASA .
+:r411 :Name "ΣΤ. ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΣΙΣΜΑΝΟΓΛΕΙΟ - ΧΑΛΑΝΔΡΙ" .
+
+:r413 rdf:type owl:NamedIndividual .
+:r413 rdf:type :Bus .
+:r413 :belongsAgency :OASA .
+:r413 :Name "ΠΑΠΑΓΟΥ - ΣΤ. ΚΑΤΕΧΑΚΗ - ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r416 rdf:type owl:NamedIndividual .
+:r416 rdf:type :Bus .
+:r416 :belongsAgency :OASA .
+:r416 :Name "ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΧΟΛΑΡΓΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r418 rdf:type owl:NamedIndividual .
+:r418 rdf:type :Bus .
+:r418 :belongsAgency :OASA .
+:r418 :Name "ΣΤ. ΕΘΝ. ΑΜΥΝΑΣ - ΣΧΟΛ. ΧΟΛΑΡΓΟΥ (ΚΥΚΛΙΚΗ)" .
+
+:r420 rdf:type owl:NamedIndividual .
+:r420 rdf:type :Bus .
+:r420 :belongsAgency :OASA .
+:r420 :Name "ΠΕΙΡΑΙΑΣ - ΑΓ. ΑΝΑΡΓΥΡΟΙ (Μέσω ΚΗΦΙΣΟΥ)" .
+
+:r421 rdf:type owl:NamedIndividual .
+:r421 rdf:type :Bus .
+:r421 :belongsAgency :OASA .
+:r421 :Name "ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΑΓ. ΠΑΡΑΣΚΕΥΗ" .
+
+:r444 rdf:type owl:NamedIndividual .
+:r444 rdf:type :Bus .
+:r444 :belongsAgency :OASA .
+:r444 :Name "ΣΤ. ΕΙΡΗΝΗ - ΓΑΛΑΤΣΙ - ΣΤ. ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r446 rdf:type owl:NamedIndividual .
+:r446 rdf:type :Bus .
+:r446 :belongsAgency :OASA .
+:r446 :Name "ΣΤΑΘ. ΑΜΑΡΟΥΣΙΟΥ - ΝΟΣΟΚ. ΠΕΝΤΕΛΗΣ (Μέσω ΠΙΚΠΑ)" .
+
+:r447 rdf:type owl:NamedIndividual .
+:r447 rdf:type :Bus .
+:r447 :belongsAgency :OASA .
+:r447 :Name "ΧΑΛΑΝΔΡΙ - ΑΝΩ ΒΡΙΛΗΣΣΙΑ" .
+
+:r500 rdf:type owl:NamedIndividual .
+:r500 rdf:type :Bus .
+:r500 :belongsAgency :OASA .
+:r500 :Name "ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ" .
+
+:r501 rdf:type owl:NamedIndividual .
+:r501 rdf:type :Bus .
+:r501 :belongsAgency :OASA .
+:r501 :Name "ΠΕΥΚΗ - ΜΑΡΟΥΣΙ (ΚΥΚΛΙΚΗ)" .
+
+:r504 rdf:type owl:NamedIndividual .
+:r504 rdf:type :Bus .
+:r504 :belongsAgency :OASA .
+:r504 :Name "ΘΡΑΚΟΜΑΚΕΔΟΝΕΣ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r527 rdf:type owl:NamedIndividual .
+:r527 rdf:type :Bus .
+:r527 :belongsAgency :OASA .
+:r527 :Name "ΠΕΥΚΗ - ΝΕΡΑΤΖΙΩΤΙΣΣΑ (ΚΥΚΛΙΚΗ)" .
+
+:r541 rdf:type owl:NamedIndividual .
+:r541 rdf:type :Bus .
+:r541 :belongsAgency :OASA .
+:r541 :Name "ΜΕΤΑΜΟΡΦΩΣΗ - ΣΤ. ΑΜΑΡΟΥΣΙΟΥ (ΚΥΚΛΙΚΗ)" .
+
+:r543 rdf:type owl:NamedIndividual .
+:r543 rdf:type :Bus .
+:r543 :belongsAgency :OASA .
+:r543 :Name "ΣΤΑΘΜΟΣ ΚΗΦΙΣΙΑΣ - ΝΟΣΟΚ. ΑΓ. ΑΝΑΡΓΥΡΟΙ" .
+
+:r550 rdf:type owl:NamedIndividual .
+:r550 rdf:type :Bus .
+:r550 :belongsAgency :OASA .
+:r550 :Name "Π. ΦΑΛΗΡΟ - ΚΗΦΙΣΙΑ" .
+
+:r560 rdf:type owl:NamedIndividual .
+:r560 rdf:type :Bus .
+:r560 :belongsAgency :OASA .
+:r560 :Name "ΣΤ. ΚΗΦΙΣΙΑ - ΜΟΡΤΕΡΟ - Ν. ΕΡΥΘΡΑΙΑ" .
+
+:r602 rdf:type owl:NamedIndividual .
+:r602 rdf:type :Bus .
+:r602 :belongsAgency :OASA .
+:r602 :Name "Ν. ΙΩΝΙΑ - ΚΑΛΟΓΡΕΖΑ - ΣΤΑΘ. ΠΑΝΟΡΜΟΥ (ΚΥΚΛΙΚΗ)" .
+
+:r604 rdf:type owl:NamedIndividual .
+:r604 rdf:type :Bus .
+:r604 :belongsAgency :OASA .
+:r604 :Name "ΝΟΣ. ΑΓ. ΑΝΑΡΓΥΡΩΝ - ΣΤ. ΜΕΤΑΜΟΡΦΩΣΗΣ - ΝΕΑ ΙΩΝΙΑ" .
+
+:r605 rdf:type owl:NamedIndividual .
+:r605 rdf:type :Bus .
+:r605 :belongsAgency :OASA .
+:r605 :Name " ΠΕΡΙΣΣΟΣ - ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r608 rdf:type owl:NamedIndividual .
+:r608 rdf:type :Bus .
+:r608 :belongsAgency :OASA .
+:r608 :Name "ΓΑΛΑΤΣΙ - ΑΚΑΔΗΜΙΑ - ΝΕΚΡ. ΖΩΓΡΑΦΟΥ" .
+
+:r610 rdf:type owl:NamedIndividual .
+:r610 rdf:type :Bus .
+:r610 :belongsAgency :OASA .
+:r610 :Name "ΦΙΛΟΘΕΗ - ΑΜΠΕΛΟΚΗΠΟΙ (ΚΥΚΛΙΚΗ)" .
+
+:r619 rdf:type owl:NamedIndividual .
+:r619 rdf:type :Bus .
+:r619 :belongsAgency :OASA .
+:r619 :Name "ΜΕΤΑΜΟΡΦΩΣΗ-Ν.ΦΙΛΑΔΕΛΦΕΙΑ-ΣΤ.ΑΝΩ ΠΑΤΗΣΙΩΝ(ΚΥΚΛΙΚ)" .
+
+:r622 rdf:type owl:NamedIndividual .
+:r622 rdf:type :Bus .
+:r622 :belongsAgency :OASA .
+:r622 :Name "ΓΟΥΔΗ - ΑΝΩ ΓΑΛΑΤΣΙ" .
+
+:r640 rdf:type owl:NamedIndividual .
+:r640 rdf:type :Bus .
+:r640 :belongsAgency :OASA .
+:r640 :Name "ΤΟΠΙΚΗ ΗΡΑΚΛΕΙΟΥ (ΚΥΚΛΙΚΗ)" .
+
+:r642 rdf:type owl:NamedIndividual .
+:r642 rdf:type :Bus .
+:r642 :belongsAgency :OASA .
+:r642 :Name "ΗΡΑΚΛΕΙΟ - ΑΓ.ΝΕΚΤΑΡΙΟΣ - ΠΕΥΚΗ (ΚΥΚΛΙΚΗ)" .
+
+:r651 rdf:type owl:NamedIndividual .
+:r651 rdf:type :Bus .
+:r651 :belongsAgency :OASA .
+:r651 :Name "ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Α (ΚΥΚΛΙΚΗ)" .
+
+:r653 rdf:type owl:NamedIndividual .
+:r653 rdf:type :Bus .
+:r653 :belongsAgency :OASA .
+:r653 :Name "ΨΥΧΙΚΟ - ΠΑΝΟΡΜΟΥ Β (ΚΥΚΛΙΚΗ)" .
+
+:r700 rdf:type owl:NamedIndividual .
+:r700 rdf:type :Bus .
+:r700 :belongsAgency :OASA .
+:r700 :Name "ΑΓΙΑ ΤΡΙΑΔΑ ΠΕΤΡΟΥΠΟΛΗ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚ)" .
+
+:r701 rdf:type owl:NamedIndividual .
+:r701 rdf:type :Bus .
+:r701 :belongsAgency :OASA .
+:r701 :Name "ΚΑΜΑΤΕΡΟ - ΙΛΙΟΝ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)" .
+
+:r703 rdf:type owl:NamedIndividual .
+:r703 rdf:type :Bus .
+:r703 :belongsAgency :OASA .
+:r703 :Name "ΠΕΙΡΑΙΑΣ-ΑΓ. ΑΝΑΡΓΥΡΟΙ-ΑΓ. ΕΛΕΥΘΕΡΙΟΣ (Μέσω ΘΗΒΩΝ)" .
+
+:r704 rdf:type owl:NamedIndividual .
+:r704 rdf:type :Bus .
+:r704 :belongsAgency :OASA .
+:r704 :Name "ΚΑΜΑΤΕΡΟ - ΠΛ. ΑΓ. ΑΝΑΡΓΥΡΩΝ (ΚΥΚΛΙΚΗ)" .
+
+:r705 rdf:type owl:NamedIndividual .
+:r705 rdf:type :Bus .
+:r705 :belongsAgency :OASA .
+:r705 :Name "ΚΑΜΑΤΕΡΟ-ΙΛΙΟΝ-ΠΛ.ΑΓ.ΑΝΑΡΓΥΡΩΝ-ΣΤ.ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛ." .
+
+:r711 rdf:type owl:NamedIndividual .
+:r711 rdf:type :Bus .
+:r711 :belongsAgency :OASA .
+:r711 :Name "ΖΩΦΡΙΑ - ΑΤΤΙΚΗ (ΚΥΚΛΙΚΗ)" .
+
+:r712 rdf:type owl:NamedIndividual .
+:r712 rdf:type :Bus .
+:r712 :belongsAgency :OASA .
+:r712 :Name "ΑΧΑΡΝΑΙ - ΕΡΓ. ΠΟΛ/ΚΙΕΣ - Α. ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r713 rdf:type owl:NamedIndividual .
+:r713 rdf:type :Bus .
+:r713 :belongsAgency :OASA .
+:r713 :Name "Α. ΛΙΟΣΙΑ (ΠΑΝΟΡΑΜΑ) - ΣΤ. ΠΡΟΑΣΤΙΑΚΟΥ(ΑΝΩ ΛΙΟΣΙΑ)" .
+
+:r719 rdf:type owl:NamedIndividual .
+:r719 rdf:type :Bus .
+:r719 :belongsAgency :OASA .
+:r719 :Name "ΚΗΠΟΥΠΟΛΗ - ΠΑΛΑΤΙΑΝΗ - ΣΤ. ΛΑΡΙΣΗΣ(ΚΥΚΛΙΚΗ)" .
+
+:r721 rdf:type owl:NamedIndividual .
+:r721 rdf:type :Bus .
+:r721 :belongsAgency :OASA .
+:r721 :Name "ΑΧΑΡΝΑΙ - ΚΗΦΙΣΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r723 rdf:type owl:NamedIndividual .
+:r723 rdf:type :Bus .
+:r723 :belongsAgency :OASA .
+:r723 :Name "ΦΥΛΗ - ΑΝΩ ΛΙΟΣΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r724 rdf:type owl:NamedIndividual .
+:r724 rdf:type :Bus .
+:r724 :belongsAgency :OASA .
+:r724 :Name "ΘΡΑΚ/ΔΟΝΕΣ - ΑΧΑΡΝΑΙ - Ν. ΙΩΝΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r727 rdf:type owl:NamedIndividual .
+:r727 rdf:type :Bus .
+:r727 :belongsAgency :OASA .
+:r727 :Name "ΑΧΑΡΝΑΙ - ΜΕΣΟΝΥΧΙ (ΚΥΚΛΙΚΗ)" .
+
+:r730 rdf:type owl:NamedIndividual .
+:r730 rdf:type :Bus .
+:r730 :belongsAgency :OASA .
+:r730 :Name "ΛΟΦΟΣ ΑΞΙΩΜΑΤΙΚΩΝ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΖΩΟΔ. ΠΗΓΗ" .
+
+:r731 rdf:type owl:NamedIndividual .
+:r731 rdf:type :Bus .
+:r731 :belongsAgency :OASA .
+:r731 :Name "ΑΝΘΟΥΠΟΛΗ - ΣΤ. Μ. ΑΝΘΟΥΠΟΛΗ- ΑΤΤΙΚΟ ΝΟΣ-ΔΑΣΟΣ" .
+
+:r732 rdf:type owl:NamedIndividual .
+:r732 rdf:type :Bus .
+:r732 :belongsAgency :OASA .
+:r732 :Name "ΑΓ. ΦΑΝΟΥΡΙΟΣ - ΑΚΑΔΗΜΙΑ - ΖΩΟΔ. ΠΗΓΗ" .
+
+:r735 rdf:type owl:NamedIndividual .
+:r735 rdf:type :Bus .
+:r735 :belongsAgency :OASA .
+:r735 :Name "ΑΧΑΡΝΑΙ -ΖΕΦΥΡΙ - ΣΤ. ΚΑΤΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r740 rdf:type owl:NamedIndividual .
+:r740 rdf:type :Bus .
+:r740 :belongsAgency :OASA .
+:r740 :Name "ΟΛΥΜΠ. ΧΩΡΙΟ - ΣΚΑ- ΑΧΑΡΝΑΙ- ΑΓ.ΑΝΝΑ (ΚΥΚΛΙΚΗ)" .
+
+:r747 rdf:type owl:NamedIndividual .
+:r747 rdf:type :Bus .
+:r747 :belongsAgency :OASA .
+:r747 :Name "ΠΕΤΡΟΥΠΟΛΗ - ΠΑΝΟΡΑΜΑ - ΣΤ. ΑΝΘΟΥΠΟΛΗ (ΚΥΚΛΙΚΗ)" .
+
+:r748 rdf:type owl:NamedIndividual .
+:r748 rdf:type :Bus .
+:r748 :belongsAgency :OASA .
+:r748 :Name "ΧΡΥΣΟΥΠΟΛΗ-ΑΝΘΟΥΠΟΛΗ-ΣΤ.ΠΕΡΙΣΤΕΡΙ" .
+
+:r750 rdf:type owl:NamedIndividual .
+:r750 rdf:type :Bus .
+:r750 :belongsAgency :OASA .
+:r750 :Name "ΑΤΤΙΚΟ ΝΟΣΟΚΟΜΕΙΟ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ - ΝΙΚΑΙΑ" .
+
+:r790 rdf:type owl:NamedIndividual .
+:r790 rdf:type :Bus .
+:r790 :belongsAgency :OASA .
+:r790 :Name "ΓΛΥΦΑΔΑ - ΠΕΡΙΣΤΕΡΙ (ΑΓ. ΑΝΤΩΝΙΟΣ)" .
+
+:r800 rdf:type owl:NamedIndividual .
+:r800 rdf:type :Bus .
+:r800 :belongsAgency :OASA .
+:r800 :Name "ΝΙΚΑΙΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r801 rdf:type owl:NamedIndividual .
+:r801 rdf:type :Bus .
+:r801 :belongsAgency :OASA .
+:r801 :Name "ΠΕΙΡΑΙΑΣ - ΠΑΛΑΣΚΑ" .
+
+:r803 rdf:type owl:NamedIndividual .
+:r803 rdf:type :Bus .
+:r803 :belongsAgency :OASA .
+:r803 :Name "ΠΕΙΡΑΙΑΣ - ΔΑΣΟΣ Β (Μέσω ΙΕΡΑΣ ΟΔΟΥ)" .
+
+:r805 rdf:type owl:NamedIndividual .
+:r805 rdf:type :Bus .
+:r805 :belongsAgency :OASA .
+:r805 :Name "ΑΣΠΡΟΠΥΡΓΟΣ - ΝΕΟΚΤΙΣΤΑ" .
+
+:r806 rdf:type owl:NamedIndividual .
+:r806 rdf:type :Bus .
+:r806 :belongsAgency :OASA .
+:r806 :Name "ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)" .
+
+:r807 rdf:type owl:NamedIndividual .
+:r807 rdf:type :Bus .
+:r807 :belongsAgency :OASA .
+:r807 :Name "ΑΝΩ ΚΟΡΥΔΑΛΛΟΣ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)" .
+
+:r809 rdf:type owl:NamedIndividual .
+:r809 rdf:type :Bus .
+:r809 :belongsAgency :OASA .
+:r809 :Name "ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)" .
+
+:r810 rdf:type owl:NamedIndividual .
+:r810 rdf:type :Bus .
+:r810 :belongsAgency :OASA .
+:r810 :Name "ΣΧΙΣΤΟ - ΚΟΡΥΔΑΛΛΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)" .
+
+:r811 rdf:type owl:NamedIndividual .
+:r811 rdf:type :Bus .
+:r811 :belongsAgency :OASA .
+:r811 :Name "ΧΑΪΔΑΡΙ - ΣΤ. ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)" .
+
+:r813 rdf:type owl:NamedIndividual .
+:r813 rdf:type :Bus .
+:r813 :belongsAgency :OASA .
+:r813 :Name "ΑΒΕΡΩΦ - ΠΡΟΥΣΣΗΣ" .
+
+:r814 rdf:type owl:NamedIndividual .
+:r814 rdf:type :Bus .
+:r814 :belongsAgency :OASA .
+:r814 :Name "ΣΧΙΣΤΟ - ΚΑΡΑΒΑΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r815 rdf:type owl:NamedIndividual .
+:r815 rdf:type :Bus .
+:r815 :belongsAgency :OASA .
+:r815 :Name "ΓΟΥΔΗ - ΤΑΥΡΟΣ" .
+
+:r816 rdf:type owl:NamedIndividual .
+:r816 rdf:type :Bus .
+:r816 :belongsAgency :OASA .
+:r816 :Name "ΤΑΥΡΟΣ - ΑΓ. ΔΗΜΗΤΡΙΟΣ" .
+
+:r817 rdf:type owl:NamedIndividual .
+:r817 rdf:type :Bus .
+:r817 :belongsAgency :OASA .
+:r817 :Name "ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ" .
+
+:r818 rdf:type owl:NamedIndividual .
+:r818 rdf:type :Bus .
+:r818 :belongsAgency :OASA .
+:r818 :Name "ΛΙΜ. ΠΕΡΑΜΑΤΟΣ - ΑΝΩ ΠΕΡΑΜΑ (ΚΥΚΛΙΚΗ)" .
+
+:r819 rdf:type owl:NamedIndividual .
+:r819 rdf:type :Bus .
+:r819 :belongsAgency :OASA .
+:r819 :Name "ΠΕΡΑΜΑ - ΝΕΚΡ. ΣΧΙΣΤΟΥ" .
+
+:r820 rdf:type owl:NamedIndividual .
+:r820 rdf:type :Bus .
+:r820 :belongsAgency :OASA .
+:r820 :Name "ΚΕΡΑΤΣΙΝΙ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)" .
+
+:r821 rdf:type owl:NamedIndividual .
+:r821 rdf:type :Bus .
+:r821 :belongsAgency :OASA .
+:r821 :Name "ΑΓΙΑ ΑΝΑΣΤΑΣΙΑ - ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r822 rdf:type owl:NamedIndividual .
+:r822 rdf:type :Bus .
+:r822 :belongsAgency :OASA .
+:r822 :Name "ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ - ΝΕΑ ΖΩΗ (ΚΥΚΛΙΚΗ)" .
+
+:r823 rdf:type owl:NamedIndividual .
+:r823 rdf:type :Bus .
+:r823 :belongsAgency :OASA .
+:r823 :Name " ΣΤ. ΑΓ. ΑΝΤΩΝΙΟΣ- ΑΓ. ΒΑΣΙΛΕΙΟΣ (ΚΥΚΛΙΚΗ)" .
+
+:r824 rdf:type owl:NamedIndividual .
+:r824 rdf:type :Bus .
+:r824 :belongsAgency :OASA .
+:r824 :Name "ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)" .
+
+:r825 rdf:type owl:NamedIndividual .
+:r825 rdf:type :Bus .
+:r825 :belongsAgency :OASA .
+:r825 :Name "ΝΕΑΠΟΛΗ - ΑΓ. ΑΝΤΩΝΙΟΣ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)" .
+
+:r826 rdf:type owl:NamedIndividual .
+:r826 rdf:type :Bus .
+:r826 :belongsAgency :OASA .
+:r826 :Name "ΠΕΙΡΑΙΑΣ - ΑΓ. ΜΗΝΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r827 rdf:type owl:NamedIndividual .
+:r827 rdf:type :Bus .
+:r827 :belongsAgency :OASA .
+:r827 :Name "ΠΕΙΡΑΙΑΣ - Γ΄ ΝΕΚΡΟΤ. - ΑΣΠΡΑ ΧΩΜΑΤΑ (ΚΥΚΛΙΚΗ)" .
+
+:r828 rdf:type owl:NamedIndividual .
+:r828 rdf:type :Bus .
+:r828 :belongsAgency :OASA .
+:r828 :Name "ΠΕΙΡΑΙΑΣ - ΑΣΠΡΑ ΧΩΜΑΤΑ - Γ΄ ΝΕΚΡΟΤ. (ΚΥΚΛΙΚΗ)" .
+
+:r829 rdf:type owl:NamedIndividual .
+:r829 rdf:type :Bus .
+:r829 :belongsAgency :OASA .
+:r829 :Name "ΤΕΙ ΠΕΙΡΑΙΑ - ΣΤ. ΑΙΓΑΛΕΩ - ΤΕΙ ΑΘΗΝΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r830 rdf:type owl:NamedIndividual .
+:r830 rdf:type :Bus .
+:r830 :belongsAgency :OASA .
+:r830 :Name "ΑΓ. ΒΑΡΒΑΡΑ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r831 rdf:type owl:NamedIndividual .
+:r831 rdf:type :Bus .
+:r831 :belongsAgency :OASA .
+:r831 :Name "ΠΕΙΡΑΙΑΣ - ΑΙΓΑΛΕΩ" .
+
+:r832 rdf:type owl:NamedIndividual .
+:r832 rdf:type :Bus .
+:r832 :belongsAgency :OASA .
+:r832 :Name "ΠΕΙΡΑΙΑΣ - ΕΥΓΕΝΕΙΑ - ΧΑΡΑΥΓΗ (ΚΥΚΛΙΚΗ)" .
+
+:r833 rdf:type owl:NamedIndividual .
+:r833 rdf:type :Bus .
+:r833 :belongsAgency :OASA .
+:r833 :Name "ΠΕΙΡΑΙΑΣ - ΧΑΡΑΥΓΗ - ΕΥΓΕΝΕΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r836 rdf:type owl:NamedIndividual .
+:r836 rdf:type :Bus .
+:r836 :belongsAgency :OASA .
+:r836 :Name "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΠΑΛΑΣΚΑ" .
+
+:r837 rdf:type owl:NamedIndividual .
+:r837 rdf:type :Bus .
+:r837 :belongsAgency :OASA .
+:r837 :Name "ΑΝΩ ΑΓ. ΒΑΡΒΑΡΑ - ΣΤ.  ΑΓΙΑ ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)" .
+
+:r838 rdf:type owl:NamedIndividual .
+:r838 rdf:type :Bus .
+:r838 :belongsAgency :OASA .
+:r838 :Name "ΟΜΟΝΟΙΑ - ΡΕΝΤΗΣ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r843 rdf:type owl:NamedIndividual .
+:r843 rdf:type :Bus .
+:r843 :belongsAgency :OASA .
+:r843 :Name "ΠΕΙΡΑΙΑΣ - ΠΕΡΑΜΑ" .
+
+:r845 rdf:type owl:NamedIndividual .
+:r845 rdf:type :Bus .
+:r845 :belongsAgency :OASA .
+:r845 :Name "ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω ΘΗΒΩΝ)" .
+
+:r846 rdf:type owl:NamedIndividual .
+:r846 rdf:type :Bus .
+:r846 :belongsAgency :OASA .
+:r846 :Name "ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Α (ΚΥΚΛΙΚΗ)" .
+
+:r847 rdf:type owl:NamedIndividual .
+:r847 rdf:type :Bus .
+:r847 :belongsAgency :OASA .
+:r847 :Name "ΝΕΑΠΟΛΗ - ΠΕΙΡΑΙΑΣ Β (ΚΥΚΛΙΚΗ)" .
+
+:r852 rdf:type owl:NamedIndividual .
+:r852 rdf:type :Bus .
+:r852 :belongsAgency :OASA .
+:r852 :Name "ΝΕΑΠΟΛΗ - ΣΤ. ΜΕΤΡΟ ΑΙΓΑΛΕΩ (ΚΥΚΛΙΚΗ)" .
+
+:r855 rdf:type owl:NamedIndividual .
+:r855 rdf:type :Bus .
+:r855 :belongsAgency :OASA .
+:r855 :Name "ΨΑΡΙ - ΑΣΠΡΟΠΥΡΓΟΣ - ΛΟΦΟΣ ΚΥΡΙΛΛΟΥ" .
+
+:r856 rdf:type owl:NamedIndividual .
+:r856 rdf:type :Bus .
+:r856 :belongsAgency :OASA .
+:r856 :Name "ΑΙΓΑΛΕΩ - ΥΜΗΤΤΟΣ - ΔΑΦΝΗ" .
+
+:r859 rdf:type owl:NamedIndividual .
+:r859 rdf:type :Bus .
+:r859 :belongsAgency :OASA .
+:r859 :Name "ΠΕΙΡΑΙΑΣ - ΔΕΞΑΜΕΝΕΣ (ΚΥΚΛΙΚΗ)" .
+
+:r860 rdf:type owl:NamedIndividual .
+:r860 rdf:type :Bus .
+:r860 :belongsAgency :OASA .
+:r860 :Name "Π. ΦΑΛΗΡΟ-ΓΕΝ. ΚΡΑΤΙΚΟ ΝΙΚΑΙΑΣ-ΣΧΙΣΤΟ ΚΕΡΑΤΣΙΝΙΟΥ" .
+
+:r861 rdf:type owl:NamedIndividual .
+:r861 rdf:type :Bus .
+:r861 :belongsAgency :OASA .
+:r861 :Name "ΕΛΕΥΣΙΝΑ - ΜΑΝΔΡΑ (ΟΙΚΙΣΜΟΣ ΤΙΤΑΝ)" .
+
+:r862 rdf:type owl:NamedIndividual .
+:r862 rdf:type :Bus .
+:r862 :belongsAgency :OASA .
+:r862 :Name "ΠΑΡΑΛΙΑ - ΑΝΩ ΕΛΕΥΣΙΝΑ" .
+
+:r863 rdf:type owl:NamedIndividual .
+:r863 rdf:type :Bus .
+:r863 :belongsAgency :OASA .
+:r863 :Name "ΕΛΕΥΣΙΝΑ - ΘΡΙΑΣΙΟ ΝΟΣ. - ΜΑΝΔΡΑ" .
+
+:r865 rdf:type owl:NamedIndividual .
+:r865 rdf:type :Bus .
+:r865 :belongsAgency :OASA .
+:r865 :Name "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΜΑΝΔΡΑ" .
+
+:r866 rdf:type owl:NamedIndividual .
+:r866 rdf:type :Bus .
+:r866 :belongsAgency :OASA .
+:r866 :Name "ΑΣΠΡΟΠΥΡΓΟΣ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)" .
+
+:r871 rdf:type owl:NamedIndividual .
+:r871 rdf:type :Bus .
+:r871 :belongsAgency :OASA .
+:r871 :Name "ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ (Μέσω Λ. ΕΘΝ.ΑΝΤΙΣΤΑΣΕΩΣ)" .
+
+:r875 rdf:type owl:NamedIndividual .
+:r875 rdf:type :Bus .
+:r875 :belongsAgency :OASA .
+:r875 :Name "ΠΕΙΡΑΙΑΣ - Ν. ΜΩΛΟΣ ΔΡΑΠΕΤΣΩΝΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:r876 rdf:type owl:NamedIndividual .
+:r876 rdf:type :Bus .
+:r876 :belongsAgency :OASA .
+:r876 :Name "ΕΛΕΥΣΙΝΑ - ΣΤ. ΑΓ. ΜΑΡΙΝΑ (ΚΥΚΛΙΚΗ)" .
+
+:r881 rdf:type owl:NamedIndividual .
+:r881 rdf:type :Bus .
+:r881 :belongsAgency :OASA .
+:r881 :Name "ΕΛΕΥΣΙΝΑ - ΑΣΠΡΟΠΥΡΓΟΣ - ΡΟΥΠΑΚΙ" .
+
+:r891 rdf:type owl:NamedIndividual .
+:r891 rdf:type :Bus .
+:r891 :belongsAgency :OASA .
+:r891 :Name "ΑΙΓΑΛΕΩ - ΠΕΡΙΣΤΕΡΙ - ΣΤΑΘ. ΑΤΤΙΚΗΣ (ΚΥΚΛΙΚΗ)" .
+
+:r892 rdf:type owl:NamedIndividual .
+:r892 rdf:type :Bus .
+:r892 :belongsAgency :OASA .
+:r892 :Name "ΑΓ. ΒΑΡΒΑΡΑ - ΧΑΪΔΑΡΙ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΙΛΙΟΝ" .
+
+:r904 rdf:type owl:NamedIndividual .
+:r904 rdf:type :Bus .
+:r904 :belongsAgency :OASA .
+:r904 :Name "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΣΤ. ΠΕΙΡΑΙΑ - ΦΡΕΑΤΤΥΔΑ (ΚΥΚΛΙΚΗ)" .
+
+:r906 rdf:type owl:NamedIndividual .
+:r906 rdf:type :Bus .
+:r906 :belongsAgency :OASA .
+:r906 :Name "ΠΛ. ΚΑΡΑΪΣΚΑΚΗ - ΚΑΛΛΙΠΟΛΗ (ΚΥΚΛΙΚΗ)" .
+
+:r909 rdf:type owl:NamedIndividual .
+:r909 rdf:type :Bus .
+:r909 :belongsAgency :OASA .
+:r909 :Name "ΑΓ. ΒΑΣΙΛΕΙΟΣ - ΑΓ. ΣΟΦΙΑ - ΚΡΑΤ. ΝΙΚΑΙΑΣ" .
+
+:r910 rdf:type owl:NamedIndividual .
+:r910 rdf:type :Bus .
+:r910 :belongsAgency :OASA .
+:r910 :Name "ΣΤ. ΣΥΓΓΡΟΥ ΦΙΞ - ΤΖΙΤΖΙΦΙΕΣ (ΚΥΚΛΙΚΗ)" .
+
+:r911 rdf:type owl:NamedIndividual .
+:r911 rdf:type :Bus .
+:r911 :belongsAgency :OASA .
+:r911 :Name "ΣΤΑΘ. ΚΑΛΛΙΘΕΑΣ - ΙΔΡ. ΤΥΦΛΩΝ (ΚΥΚΛΙΚΗ)" .
+
+:r914 rdf:type owl:NamedIndividual .
+:r914 rdf:type :Bus .
+:r914 :belongsAgency :OASA .
+:r914 :Name "ΟΜΟΝΟΙΑ - ΛΑΧΑΝΑΓΟΡΑ - ΠΑΛ. ΚΟΚΚΙΝΙΑ (ΚΥΚΛΙΚΗ)" .
+
+:r915 rdf:type owl:NamedIndividual .
+:r915 rdf:type :Bus .
+:r915 :belongsAgency :OASA .
+:r915 :Name "ΛΟΦΟΣ ΒΩΚΟΥ- ΠΡ.ΗΛΙΑΣ (ΚΥΚΛΙΚΗ)" .
+
+:rΑ1 rdf:type owl:NamedIndividual .
+:rΑ1 rdf:type :Bus .
+:rΑ1 :belongsAgency :OASA .
+:rΑ1 :Name "ΠΕΙΡΑΙΑΣ - ΒΟΥΛΑ" .
+
+:rΑ10 rdf:type owl:NamedIndividual .
+:rΑ10 rdf:type :Bus .
+:rΑ10 :belongsAgency :OASA .
+:rΑ10 :Name "ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ" .
+
+:rΑ11 rdf:type owl:NamedIndividual .
+:rΑ11 rdf:type :Bus .
+:rΑ11 :belongsAgency :OASA .
+:rΑ11 :Name "ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ (ΜΕΣΩ ΠΑΝΟΡΑΜΑΤΟΣ)" .
+
+:rΑ13 rdf:type owl:NamedIndividual .
+:rΑ13 rdf:type :Bus .
+:rΑ13 :belongsAgency :OASA .
+:rΑ13 :Name "ΟΜΟΝΟΙΑ - ΚΗΠΟΥΠΟΛΗ" .
+
+:rΑ15 rdf:type owl:NamedIndividual .
+:rΑ15 rdf:type :Bus .
+:rΑ15 :belongsAgency :OASA .
+:rΑ15 :Name "ΣΤ. ΛΑΡΙΣΗΣ - ΔΑΣΟΣ" .
+
+:rΑ16 rdf:type owl:NamedIndividual .
+:rΑ16 rdf:type :Bus .
+:rΑ16 :belongsAgency :OASA .
+:rΑ16 :Name "ΠΛ. ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΕΛΕΥΣΙΝΑ (Μέσω ΙΕΡΑΣ ΟΔΟΥ)" .
+
+:rΑ2 rdf:type owl:NamedIndividual .
+:rΑ2 rdf:type :Bus .
+:rΑ2 :belongsAgency :OASA .
+:rΑ2 :Name "ΑΚΑΔΗΜΙΑ - ΒΟΥΛΑ (Μέσω Λ. ΑΜΦΙΘΕΑΣ)" .
+
+:rΑ3 rdf:type owl:NamedIndividual .
+:rΑ3 rdf:type :Bus .
+:rΑ3 :belongsAgency :OASA .
+:rΑ3 :Name "ΑΚΑΔΗΜΙΑ - ΓΛΥΦΑΔΑ  (Μέσω ΒΟΥΛΙΑΓΜΕΝΗΣ)" .
+
+:rΑ5 rdf:type owl:NamedIndividual .
+:rΑ5 rdf:type :Bus .
+:rΑ5 :belongsAgency :OASA .
+:rΑ5 :Name "ΑΚΑΔΗΜΙΑ - ΑΓ. ΠΑΡΑΣΚΕΥΗ - ΑΝΘΟΥΣΑ" .
+
+:rΑ7 rdf:type owl:NamedIndividual .
+:rΑ7 rdf:type :Bus .
+:rΑ7 :belongsAgency :OASA .
+:rΑ7 :Name "ΣΤΟΥΡΝΑΡΗ - ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ)" .
+
+:rΑ8 rdf:type owl:NamedIndividual .
+:rΑ8 rdf:type :Bus .
+:rΑ8 :belongsAgency :OASA .
+:rΑ8 :Name "ΠΟΛΥΤΕΧΝΕΙΟ - Ν. ΙΩΝΙΑ - ΜΑΡΟΥΣΙ" .
+
+:rΒ1 rdf:type owl:NamedIndividual .
+:rΒ1 rdf:type :Bus .
+:rΒ1 :belongsAgency :OASA .
+:rΒ1 :Name "ΠΕΙΡΑΙΑΣ - ΑΝΩ ΓΛΥΦΑΔΑ" .
+
+:rΒ10 rdf:type owl:NamedIndividual .
+:rΒ10 rdf:type :Bus .
+:rΒ10 :belongsAgency :OASA .
+:rΒ10 :Name "ΣΤΑΘΜΟΣ ΛΑΡΙΣΗΣ - ΑΧΑΡΝΑΙ (Μέσω ΑΡΙΣΤΟΤΕΛΟΥΣ)" .
+
+:rΒ11 rdf:type owl:NamedIndividual .
+:rΒ11 rdf:type :Bus .
+:rΒ11 :belongsAgency :OASA .
+:rΒ11 :Name "ΠΛ. ΒΑΘΗ - ΙΛΙΟΝ - ΠΕΤΡΟΥΠΟΛΗ" .
+
+:rΒ12 rdf:type owl:NamedIndividual .
+:rΒ12 rdf:type :Bus .
+:rΒ12 :belongsAgency :OASA .
+:rΒ12 :Name "ΜΑΡΝΗ - ΑΝΩ ΛΙΟΣΙΑ" .
+
+:rΒ15 rdf:type owl:NamedIndividual .
+:rΒ15 rdf:type :Bus .
+:rΒ15 :belongsAgency :OASA .
+:rΒ15 :Name "ΣΤ. ΛΑΡΙΣΗΣ - ΠΑΛΑΤΑΚΙ" .
+
+:rΒ18 rdf:type owl:NamedIndividual .
+:rΒ18 rdf:type :Bus .
+:rΒ18 :belongsAgency :OASA .
+:rΒ18 :Name "ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω Π. ΡΑΛΛΗ)" .
+
+:rΒ2 rdf:type owl:NamedIndividual .
+:rΒ2 rdf:type :Bus .
+:rΒ2 :belongsAgency :OASA .
+:rΒ2 :Name "ΑΚΑΔΗΜΙΑ - ΑΓΙΟΣ ΚΟΣΜΑΣ (Μέσω ΠΑΡΑΛΙΑΚΗΣ)" .
+
+:rΒ5 rdf:type owl:NamedIndividual .
+:rΒ5 rdf:type :Bus .
+:rΒ5 :belongsAgency :OASA .
+:rΒ5 :Name "ΣΤ. ΛΑΡΙΣΗΣ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΑΓ. ΠΑΡΑΣΚΕΥΗ" .
+
+:rΒ9 rdf:type owl:NamedIndividual .
+:rΒ9 rdf:type :Bus .
+:rΒ9 :belongsAgency :OASA .
+:rΒ9 :Name "ΧΑΛΚΟΚΟΝΔΥΛΗ - ΜΕΤΑΜΟΡΦΩΣΗ - Ν. ΚΗΦΙΣΙΑ" .
+
+:rΓ10 rdf:type owl:NamedIndividual .
+:rΓ10 rdf:type :Bus .
+:rΓ10 :belongsAgency :OASA .
+:rΓ10 :Name "ΑΝΑΚΑΣΑ - ΑΓ. ΑΝΑΡΓΥΡΟΙ - ΠΛ. ΒΑΘΗ (ΚΥΚΛΙΚΗ)" .
+
+:rΓ12 rdf:type owl:NamedIndividual .
+:rΓ12 rdf:type :Bus .
+:rΓ12 :belongsAgency :OASA .
+:rΓ12 :Name "ΚΑΜΑΤΕΡΟ - ΑΓ.ΝΙΚΟΛΑΟΣ-ΙΛΙΟΝ - ΠΟΛ/ΧΝΕΙΟ(ΚΥΚΛΙΚΗ)" .
+
+:rΓ16 rdf:type owl:NamedIndividual .
+:rΓ16 rdf:type :Bus .
+:rΓ16 :belongsAgency :OASA .
+:rΓ16 :Name "ΠΛΑΤΕΙΑ ΚΟΥΜΟΥΝΔΟΥΡΟΥ - ΑΣΠΡΟΠΥΡΓΟΣ" .
+
+:rΓ18 rdf:type owl:NamedIndividual .
+:rΓ18 rdf:type :Bus .
+:rΓ18 :belongsAgency :OASA .
+:rΓ18 :Name "ΟΜΟΝΟΙΑ - ΠΕΡΑΜΑ (Μέσω ΓΡ. ΛΑΜΠΡΑΚΗ)" .
+
+:rΓ9 rdf:type owl:NamedIndividual .
+:rΓ9 rdf:type :Bus .
+:rΓ9 :belongsAgency :OASA .
+:rΓ9 :Name "ΧΑΛΚΟΚΟΝΔΥΛΗ - Κ. ΜΥΛΟΣ - ΑΧΑΡΝΑΙ" .
+
+:rΕ14 rdf:type owl:NamedIndividual .
+:rΕ14 rdf:type :Bus .
+:rΕ14 :belongsAgency :OASA .
+:rΕ14 :Name "ΣΥΝΤΑΓΜΑ - Ο.Α.Κ.Α - ΥΠ.ΠΑΙΔΕΙΑΣ (EXPRESS)" .
+
+:rΕ15 rdf:type owl:NamedIndividual .
+:rΕ15 rdf:type :Bus .
+:rΕ15 :belongsAgency :OASA .
+:rΕ15 :Name "ΣΤ. ΛΑΡΙΣΗΣ - ΤΕΙ ΑΘΗΝΩΝ (ΣΧΟΛΙΚΗ  EXPRESS)" .
+
+:rΕ90 rdf:type owl:NamedIndividual .
+:rΕ90 rdf:type :Bus .
+:rΕ90 :belongsAgency :OASA .
+:rΕ90 :Name "ΠΕΙΡΑΙΑΣ - ΠΑΝΕΠΙΣΤΗΜΙΟΥΠΟΛΗ (ΣΧΟΛΙΚΗ EXPRESS)" .
+
+:rΧ14 rdf:type owl:NamedIndividual .
+:rΧ14 rdf:type :Bus .
+:rΧ14 :belongsAgency :OASA .
+:rΧ14 :Name "ΣΥΝΤΑΓΜΑ - ΚΗΦΙΣΙΑ" .
+
+:rΧ93 rdf:type owl:NamedIndividual .
+:rΧ93 rdf:type :Bus .
+:rΧ93 :belongsAgency :OASA .
+:rΧ93 :Name "ΣΤ. ΥΠΕΡ. ΛΕΩΦ. ΚΗΦΙΣΟΥ - ΑΕΡ/ΝΑΣ ΑΘΗΝΩΝ (EXPRESS)" .
+
+:rΧ95 rdf:type owl:NamedIndividual .
+:rΧ95 rdf:type :Bus .
+:rΧ95 :belongsAgency :OASA .
+:rΧ95 :Name "ΣΥΝΤΑΓΜΑ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)" .
+
+:rΧ96 rdf:type owl:NamedIndividual .
+:rΧ96 rdf:type :Bus .
+:rΧ96 :belongsAgency :OASA .
+:rΧ96 :Name "ΠΕΙΡΑΙΑΣ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)" .
+
+:rΧ97 rdf:type owl:NamedIndividual .
+:rΧ97 rdf:type :Bus .
+:rΧ97 :belongsAgency :OASA .
+:rΧ97 :Name "ΣΤ. ΜΕΤΡΟ ΕΛΛΗΝΙΚΟ - ΑΕΡΟΛ. ΑΘΗΝΩΝ (EXPRESS)" .
+

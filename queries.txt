@@ -1,0 +1,53 @@
+/*
+* δηλώσεις
+*/
+prefix owl:<http://www.w3.org/2002/07/owl#> 
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xml:<http://www.w3.org/XML/1998/namespace> 
+prefix xsd:<http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+prefix vrdf:<http://www.openlinksw.com/schemas/virtrdf#> 
+prefix transport:<http://www.semanticweb.org/johnvoul/ontologies/2020/6/transport#> 
+
+/*
+* querrry για τεστ. Όλα δουλεύουν
+*/
+select distinct ?route
+where{
+?route rdf:type transport:Bus.
+}
+
+/*
+*
+*/
+SELECT ?name ?desc
+(bif:st_distance (?coords, bif:st_point (37.9871985336497, 23.756879095231)))
+WHERE
+{
+?station rdf:type transport:Station .
+?station transport:Coordinates ?coords .
+?station transport:Name ?name .
+?station transport:Description ?desc .
+}
+ORDER BY ASC 3
+LIMIT 5
+/*
+*
+*/
+select ?route
+where{
+?route transport:ofAgency transport:OASA.
+?route rdf:type transport:Tram.
+?route transport:Name "ΝΕΟ ΦΑΛΗΡΟ - AΣΚΛΗΠΕΙΟ ΒΟΥΛΑ".
+}
+
+/*
+*
+*/
+
+/*
+ *
+ */
+
+
+
