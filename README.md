@@ -11,3 +11,9 @@ A project for the course of Knowledge Systems @ECE.NTUA, GR.
  ## 2. Cast data from raw ttl to rdf triplets. 
  
  ## 3. Query over the Knowledge base using sparql. 
+
+
+## Important Notices  
+
+> Some input files are not in this directory because of their large size. 
+> the main file (describing the ontology) is turtle.ttl 
